@@ -27,7 +27,7 @@ public class ModBlocks {
 
     private static void registerBlockItem(String name, Block block) {
         Registry.register(Registries.ITEM, Identifier.of(BeltMod.MOD_ID,name),
-        new BlockItem(block,new Item.Settings()));
+        new BlockItem(block,new Item.Settings().maxCount(1)));
     }
 
     public static void registerModBlocks()

@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class BeltItems {
 
-  public static final Item leather_belt = registerItem("leather_belt",new Item(new Item.Settings()));
+  public static final Item leather_belt = registerItem("leather_belt",new Item(new Item.Settings().maxCount(1)));
 
 
     private static Item registerItem(String name, Item item){
