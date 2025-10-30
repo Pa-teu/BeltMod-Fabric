@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "beltmod",
+	"version": "${version}",
+	"name": "BeltMod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/beltmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.pateu.beltmod.BeltMod"
+		],
+		"fabric-datagen": [
+			"com.pateu.beltmod.BeltModDataGenerator"
+		],
+      "client": [
+        "com.pateu.beltmod.BeltModClient"
+      ]
+
+	},
+	"mixins": [
+		"beltmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
