@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "beltmod:item/test"
+    "layer0": "beltmod:item/leather_belt"
   }
 }

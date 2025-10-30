@@ -2,6 +2,7 @@ package com.pateu.beltmod;
 
 import com.pateu.beltmod.block.ModBlocks;
 import com.pateu.beltmod.item.BeltItems;
+import com.pateu.beltmod.item.ModItemGroups;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class BeltMod implements ModInitializer {
 	public void onInitialize() {
         BeltItems.registerItems();
         ModBlocks.registerModBlocks();
+        ModItemGroups.registerItemGroups();
     }
 }

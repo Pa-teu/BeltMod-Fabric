@@ -35,8 +35,5 @@ public class ModBlocks {
     {
         BeltMod.LOGGER.info("Registering ModBlocks for " + BeltMod.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-        entries.add(ModBlocks.Accessories_Block);
-     });
    }
     }

@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class BeltItems {
 
-  public static final Item Test = registerItem("test",new Item(new Item.Settings()));
+  public static final Item leather_belt = registerItem("leather_belt",new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item){
@@ -22,10 +22,6 @@ public class BeltItems {
     public static void registerItems() {
 
         BeltMod.LOGGER.info("Registering Items for " + BeltMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register((entries) -> {
-            entries.add(Test);
-        });
 
     }
 }
