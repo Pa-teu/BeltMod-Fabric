@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "beltmod:block/accessories_block_side",
+    "down": "beltmod:block/accessories_block_bottom",
+    "up": "beltmod:block/accessories_block_top",
+    "north": "beltmod:block/accessories_block_side",
+    "south": "beltmod:block/accessories_block_side",
+    "west": "beltmod:block/accessories_block_side",
+    "east": "beltmod:block/accessories_block_side"
+  }
+}

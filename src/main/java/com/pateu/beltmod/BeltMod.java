@@ -1,5 +1,6 @@
 package com.pateu.beltmod;
 
+import com.pateu.beltmod.block.ModBlocks;
 import com.pateu.beltmod.item.BeltItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,5 +14,6 @@ public class BeltMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
         BeltItems.registerItems();
+        ModBlocks.registerModBlocks();
     }
 }
