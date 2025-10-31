@@ -20,6 +20,10 @@ public class ModItemGroups {
                     .displayName(Text.translatable("Belt and Accessories"))
                     .entries((displayContext, entries) -> {
                         entries.add(BeltItems.leather_belt);
+                        entries.add(BeltItems.iron_belt);
+                        entries.add(BeltItems.gold_belt);
+                        entries.add(BeltItems.diamond_belt);
+                        entries.add(BeltItems.netherite_belt);
                         entries.add(ModBlocks.Accessories_Block);
                     })
                     .build());

@@ -1,5 +1,8 @@
 {
   "item.beltmod.leather_belt": "Leather Belt",
-
+  "item.beltmod.iron_belt": "Iron Belt",
+  "item.beltmod.gold_belt": "Gold Belt",
+  "item.beltmod.diamond_belt": "Diamond Belt",
+  "item.beltmod.netherite_belt": "Netherite Belt",
   "block.beltmod.accessories_block": "Accessories Station"
 }

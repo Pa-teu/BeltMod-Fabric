@@ -14,6 +14,14 @@ public class BeltItems {
 
   public static final Item leather_belt = registerItem("leather_belt",new Item(new Item.Settings().maxCount(1)));
 
+  public static final Item iron_belt = registerItem("iron_belt",new Item(new Item.Settings().maxCount(1)));
+
+  public static final Item gold_belt = registerItem("gold_belt",new Item(new Item.Settings().maxCount(1)));
+
+  public static final Item diamond_belt = registerItem("diamond_belt",new Item(new Item.Settings().maxCount(1)));
+
+  public static final Item netherite_belt = registerItem("netherite_belt",new Item(new Item.Settings().maxCount(1)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(BeltMod.MOD_ID, name), item);
