@@ -2,8 +2,10 @@ package com.pateu.beltmod.item;
 import com.pateu.beltmod.BeltMod;
 
 import com.pateu.beltmod.block.ModBlocks;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.MinecartItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -25,6 +27,7 @@ public class ModItemGroups {
                         entries.add(BeltItems.diamond_belt);
                         entries.add(BeltItems.netherite_belt);
                         entries.add(ModBlocks.Accessories_Block);
+                        entries.add(BeltItems.john_cena);
                     })
                     .build());
 

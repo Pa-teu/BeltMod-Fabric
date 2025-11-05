@@ -22,6 +22,8 @@ public class BeltItems {
 
   public static final Item netherite_belt = registerItem("netherite_belt",new Item(new Item.Settings().maxCount(1)));
 
+    public static final Item john_cena = registerItem("john_cena",new Item(new Item.Settings().maxCount(2)));
+
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(BeltMod.MOD_ID, name), item);
