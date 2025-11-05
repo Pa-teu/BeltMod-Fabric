@@ -13,7 +13,7 @@ public class ModTags {
 
             return TagKey.of(RegistryKeys.BLOCK, Identifier.of(BeltMod.MOD_ID, name));
         }
-
+    }
         public static class Items {
             public static final TagKey<Item> BELTS = createtag("belts");
 
@@ -26,4 +26,4 @@ public class ModTags {
         }
 
     }
-}
+
